@@ -34,7 +34,7 @@ buffer overflow stuff
 <br>
 <br>
 
-**Resend the new list of badchars, and then compare again **
+**Resend the new list of badchars, and then compare again**
 
 `!mona compare -f C:\mona\bytearray.bin -a ESP`
 
