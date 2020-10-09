@@ -20,19 +20,19 @@ buffer overflow stuff
 
 **Run your fuzzer till a crash**
 
-**compare your stuff
+**compare your stuff**
 `!mona compare -f C:\mona\bytearray.bin -a ESP`
 
 <br>
 <br>
 
-**Add newly found bad chars to your list to be removed, and regenerate your badchars list
+**Add newly found bad chars to your list to be removed, and regenerate your badchars list**
 `!mona bytearray -b "\x00\x0a"`
 
 <br>
 <br>
 
-**Resend the new list of badchars, and then compare again 
+**Resend the new list of badchars, and then compare again **
 `!mona compare -f C:\mona\bytearray.bin -a ESP`
 
 <br>
