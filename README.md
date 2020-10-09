@@ -3,7 +3,7 @@ buffer overflow stuff
 
 ## Mona CheatSheet
 
-**Setup your working directory **
+**Setup your working directory**
 
 `!mona config -set workingfolder c:\mona\%p`
 
