@@ -7,12 +7,19 @@ from pwn import *
 cyclic(3000)
 cyclic_find('abdd')
 out[100] 2907
+```
 
 
 OR
-
+```
 cyclic_metasploit(3000)
 cyclic_metasploit_find(0x33794332) 
+```
+OR
+
+```
+msf-pattern-create -l 3000
+msf-pattern-offset -l 3000 -q 33794332
 
 ```
 
