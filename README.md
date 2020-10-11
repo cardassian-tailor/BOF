@@ -1,6 +1,22 @@
 # BOF
 buffer overflow stuff
 
+## cyclic patterns
+```
+from pwn import *
+cyclic(3000)
+cyclic_find('abdd')
+out[100] 2907
+
+
+OR
+
+cyclic_metasploit(3000)
+cyclic_metasploit_find(0x33794332) 
+
+```
+
+
 ## Mona CheatSheet
 
 **Setup your working directory**
