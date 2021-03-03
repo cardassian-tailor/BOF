@@ -1,4 +1,4 @@
-# BOF
+# Generating unique patterns
 buffer overflow stuff
 
 ## cyclic patterns
@@ -22,7 +22,9 @@ msf-pattern-create -l 3000
 msf-pattern-offset -l 3000 -q 33794332
 
 ```
-
+```
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 600
+```
 
 ## Mona CheatSheet
 
