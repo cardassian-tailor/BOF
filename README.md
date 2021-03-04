@@ -35,6 +35,9 @@ msf-pattern-offset -l 3000 -q 33794332
 <br>
 <br>
 
+`!mona findmsp -distance 600 `
+
+
 
 **Generate a byte array**
 
