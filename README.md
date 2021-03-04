@@ -37,6 +37,8 @@ msf-pattern-offset -l 3000 -q 33794332
 
 `!mona findmsp -distance 600 `
 
+`/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb  -l 2400 -q 6F43396E`
+
 
 
 **Generate a byte array**
