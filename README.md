@@ -71,6 +71,12 @@ msf-pattern-offset -l 3000 -q 33794332
 <br>
 <br>
 
+## Finding a jump point 
+
+```
+!mona jmp -r esp -cpb "\x00"
+```
+
 ## MSF Payloads
 
 `msfvenom -l payloads `
