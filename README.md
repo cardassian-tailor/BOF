@@ -4,9 +4,8 @@
 In Immunity Debugger, type the following to set a working directory for mona.
 `!mona config -set workingfolder c:\mona\%p`
 
-https://github.com/corelan/mona 
-
-https://www.corelan.be/index.php/2011/07/14/mona-py-the-manual/
+* https://github.com/corelan/mona 
+* https://www.corelan.be/index.php/2011/07/14/mona-py-the-manual/
 
 <br>
 <br>
